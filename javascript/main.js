@@ -4,6 +4,10 @@ $(document).ready(function(){
 		$(this).css("background", "blue");
 	})
 
+	$('#clear').click(function(){
+		$('.box').css("background", "white");
+	})
+
 });
 
 function displayGrid(n){
@@ -17,3 +21,4 @@ function displayGrid(n){
 		$wrapper.append($('<div></div>').css("clear", "both"));
 	}
 }
+
